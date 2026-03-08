@@ -1,7 +1,8 @@
-*{
-    background-color: aqua;
+#Heading1{
+    font-size: x-large;
+    font:bold;
+    margin: 100px;
+    padding: 1%;
     border: 10px;
-    margin: auto;
-    padding: 10px;
+    text-shadow: 10px ;
 }
-
