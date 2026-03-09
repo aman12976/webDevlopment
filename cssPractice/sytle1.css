@@ -6,3 +6,22 @@
     border: 10px;
     text-shadow: 10px ;
 }
+#aman{
+    text-align: center;
+    border: 2px dotted chartreuse;
+    border-radius: 10px;
+    width: 200px; 
+    font-style:italic; 
+    font-variant:small-caps; 
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#ak{
+    text-align: center;
+   padding-top: 10px;
+   border-start-start-radius: 10px;
+   border-end-start-radius: 10px;
+   border-start-end-radius: 10px
+ 
+
+}
