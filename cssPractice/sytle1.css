@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 #Heading1{
     font-size: x-large;
     font:bold;
@@ -33,6 +37,32 @@
 .am{
     color: red;
 }
-button{
-    background-color: green;
+#font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myclass{
+    width: 200px;
+    height: 200px;
+}
+#myid{
+    background-color: aqua;
+}
+#myid1{
+    background-color: rgb(41, 46, 46);
+}
+#myid2{
+    background-color: rgb(57, 38, 128);
+}
+.akm{
+    height: 200px;
+    width: 200px;
+}
+#ak,#ak1,#ak2{
+    background-color: brown;
+    border: 1px solid red;
+
+}
+#ak{
+     display: none;
 }
