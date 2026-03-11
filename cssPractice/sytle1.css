@@ -50,6 +50,8 @@
 }
 #myid1{
     background-color: rgb(41, 46, 46);
+
+    display:inline;
 }
 #myid2{
     background-color: rgb(57, 38, 128);
