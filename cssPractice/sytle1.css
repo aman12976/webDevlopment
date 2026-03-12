@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Times New Romen";
 }
 #Heading1{
     font-size: x-large;
@@ -67,4 +68,8 @@
 }
 #ak{
      display: none;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
 }
