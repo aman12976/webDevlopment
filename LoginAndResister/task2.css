@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #f6f6f7;
+  background: #ddd;
 }
 
 /* MAIN CONTAINER */
@@ -17,11 +17,11 @@ body {
   background: #fff;
 }
 
-
+/* LEFT SIDE (SIDEBAR) */
 #card {
   width: 35%;
-  background: #07172c;
-  color: rgb(168, 156, 156);
+  background: #3d5e81;
+  color: white;
   padding: 20px;
   text-align: center;
 }
@@ -30,7 +30,7 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 5px solid #1f2a36;
+  border: 5px solid #157cea;
   margin-bottom: 10px;
 }
 
@@ -43,7 +43,7 @@ body {
   border: 1px solid #555;
 }
 
-
+/* CONTACT */
 .term h4 {
   text-align: left;
   margin: 15px 0 10px;
@@ -61,7 +61,7 @@ body {
   margin-right: 8px;
 }
 
-
+/* SKILLS */
 .data {
   margin-top: 15px;
   text-align: left;
@@ -76,39 +76,40 @@ body {
   margin: 4px 0;
 }
 
-
+/* RIGHT SIDE */
 #mainPage {
   width: 65%;
   padding: 25px;
-  background: #dbdcec;
- 
+  background: #f4f4f4;
 }
 
-
+/* HEADINGS */
 #mainPage h2 {
   margin: 15px 0;
-  color: #16283b;
+  color: #0c151f;
 }
 
-
+/* PARAGRAPH */
 #mainPage p {
   font-size: 13px;
-  color: #020000;
+  color: #000000;
   line-height: 1.5;
 }
 
+/* ROW LAYOUT */
 .row {
   display: flex;
   margin: 15px 0;
 }
 
+/* LEFT COLUMN */
 .left {
   width: 35%;
 }
 
 .left h4 {
   font-size: 13px;
-  color: #1a4f87;
+  color: #2871c0;
 }
 
 .left span {
@@ -116,21 +117,21 @@ body {
   color: gray;
 }
 
-
+/* RIGHT COLUMN */
 .right {
   width: 65%;
 }
 
 .right h4 {
   font-size: 13px;
-  color: #1a4f87;
+  color: #2871c0;
 }
 
 .right p {
   font-size: 12px;
 }
 
-
+/* SECTION SPACING */
 .resume h2 {
   margin-top: 25px;
 }
