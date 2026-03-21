@@ -2,21 +2,38 @@
     margin: 0;
     padding: 0;
 }
-#head{
-    padding: 20px;
-    background-color: rgb(53, 181, 31);
-    border-radius: 100%;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    
-    botton{
-        background-color: transparent;
-        border: none;
-    }
 
+.box1{
+    background-color: aqua;
+    position: absolute;
     
+}
+.box2{
+    background-color: #ffe4c4;
+    position: relative;
+    top: 35px;
+    left: 35px;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: brown;
+}
+.parent{
+    padding: 43px;
+    margin:34px;
+    border: 2px solid red;
+}
 
-    
+
+
+.box{
+    height: 133px;
+    width: 80vw;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid black;
+   
 
 }
