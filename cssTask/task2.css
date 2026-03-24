@@ -1,14 +1,148 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
-.info{
-    background-color: aqua;
-    width: 300px;
-    height: 700px;
-    img{
-          width: 120px;
-        height: 120px;
-          border-radius: 50%; 
-    }  
+
+body {
+  background: #ddd;
+}
+
+/* MAIN */
+.main {
+  width: 900px;
+  margin: 20px auto;
+  display: flex;
+  background: #fff;
+}
+
+/* LEFT SIDEBAR */
+#detail {
+  width: 35%;
+  background: #2f3e4e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#detail img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #1c2733;
+  margin-bottom: 10px;
+}
+
+#detail h1 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#detail h3 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+/* CONTACT INFO */
+.anyinfo {
+  text-align: left;
+  margin: 8px 0;
+  font-size: 13px;
+}
+
+.anyinfo span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* SKILLS */
+.skill {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.skill h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  font-size: 13px;
+  margin: 4px 0;
+}
+
+/* REFERENCE */
+#detail h2 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+/* RIGHT SIDE */
+.secondpage {
+  width: 65%;
+  background: #f4f4f4;
+  padding: 25px;
+}
+
+/* HEADINGS */
+.secondpage h1 {
+  font-size: 20px;
+  color: #2f3e4e;
+  margin-bottom: 10px;
+}
+
+.secondpage h2 {
+  margin: 20px 0 10px;
+  color: #2f3e4e;
+}
+
+/* TEXT */
+.page p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* ROW STRUCTURE */
+.row {
+  display: flex;
+  margin: 15px 0;
+}
+
+/* LEFT COLUMN */
+.left {
+  width: 35%;
+}
+
+.left h4 {
+  font-size: 13px;
+  color: #2f3e4e;
+}
+
+.left span {
+  font-size: 12px;
+  color: gray;
+}
+
+/* RIGHT COLUMN */
+.right {
+  width: 65%;
+}
+
+.right h4 {
+  font-size: 13px;
+  color: #2f3e4e;
+}
+
+.right p {
+  font-size: 12px;
+  color: #333;
+}
+
+/* SPACING */
+.resume h2 {
+  margin-top: 25px;
 }
