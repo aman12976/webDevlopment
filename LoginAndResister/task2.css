@@ -3,13 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  border-radius: 10px;
+ 
 }
 
 body {
   background: #ddd;
 }
 
-/* MAIN CONTAINER */
+
 #main {
   width: 900px;
   margin: 20px auto;
@@ -17,11 +19,11 @@ body {
   background: #fff;
 }
 
-/* LEFT SIDE (SIDEBAR) */
+
 #card {
   width: 35%;
   background: #3d5e81;
-  color: white;
+  color: rgb(231, 224, 224);
   padding: 20px;
   text-align: center;
 }
@@ -30,7 +32,7 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 5px solid #157cea;
+  border: 5px solid #7f9ab6;
   margin-bottom: 10px;
 }
 
@@ -40,15 +42,18 @@ body {
 
 #card hr {
   margin: 15px 0;
-  border: 1px solid #555;
+  border: 1px solid #000000;
 }
 
-/* CONTACT */
+
 .term h4 {
   text-align: left;
   margin: 15px 0 10px;
   font-size: 14px;
-  color: #ccc;
+  color: #e3e3e3;
+}
+.term{
+ color: #a3c0de;
 }
 
 .term p {
@@ -61,10 +66,15 @@ body {
   margin-right: 8px;
 }
 
-/* SKILLS */
+
 .data {
   margin-top: 15px;
   text-align: left;
+
+  h3{
+    color: #fbf5f5;
+  }
+  color: #a3c0de;
 }
 
 .data h3 {
@@ -76,33 +86,33 @@ body {
   margin: 4px 0;
 }
 
-/* RIGHT SIDE */
+
 #mainPage {
   width: 65%;
   padding: 25px;
   background: #f4f4f4;
 }
 
-/* HEADINGS */
+
 #mainPage h2 {
   margin: 15px 0;
   color: #0c151f;
 }
 
-/* PARAGRAPH */
+
 #mainPage p {
   font-size: 13px;
   color: #000000;
   line-height: 1.5;
 }
 
-/* ROW LAYOUT */
+
 .row {
   display: flex;
   margin: 15px 0;
 }
 
-/* LEFT COLUMN */
+
 .left {
   width: 35%;
 }
@@ -117,7 +127,7 @@ body {
   color: gray;
 }
 
-/* RIGHT COLUMN */
+
 .right {
   width: 65%;
 }
@@ -131,7 +141,21 @@ body {
   font-size: 12px;
 }
 
-/* SECTION SPACING */
 .resume h2 {
   margin-top: 25px;
+}
+.info{
+
+  h3{
+    color: #ddd;
+    text-align: left;
+  }
+}
+#ak{
+color: #d1d181;
+}
+#am{
+  h4{
+    color: #d1d181;
+  }
 }
