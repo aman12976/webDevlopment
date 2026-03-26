@@ -111,6 +111,7 @@ body {
 .row {
   display: flex;
   margin: 15px 0;
+  border-left: #2871c0;
 }
 
 
