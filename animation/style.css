@@ -9,5 +9,13 @@ text-wrap-mode: nowrap;
 
 #div1:hover{
     width: 200px;
-    transition: width 3s linear;
+    transition: width 3s linear 2s;
+}
+#div2{
+ border: 1px solid black;
+width:10px ;
+height: 20px;
+overflow: hidden;
+text-wrap-mode: nowrap;
+
 }
