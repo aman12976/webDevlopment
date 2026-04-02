@@ -36,5 +36,6 @@ table{
     background-color: var(--heading-color);
 }
 #b{
-    color: var(--text2-color);
+    --somevariable:green;
+    color: var(--somevariable);  
 }
