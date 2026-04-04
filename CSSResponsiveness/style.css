@@ -50,12 +50,16 @@ div {
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 15px;
+  background-color: #ea79e6;
+ 
 }
 
 #rightPart {
   height: 85vh;
   padding: 20px;
   width: 30%;
+  background-color: #268895;
+    
 
   ol {
     padding: 0 30px;
