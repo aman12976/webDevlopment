@@ -2,7 +2,7 @@ body{
     background-color: #afc2d3;
 }
 
-/* 👉 heading ko table ke upar same box feel dene ke liye */
+
 h1{
     text-align: center;
     background:#7b9dba;
@@ -14,7 +14,7 @@ h1{
     border-top-right-radius: 10px ; 
 }
 
-/* 👉 paragraph bhi same box me */
+
 p{
     text-align: center;
     background:#7b9dba;
@@ -23,7 +23,7 @@ p{
     padding-bottom: 15px;
 }
 
-/* 👉 table ko niche attach kar diya */
+
 table{
     background:#7b9dba;
     margin: auto;
@@ -31,7 +31,7 @@ table{
     border-bottom-right-radius: 1px;
 }
 
-/* बाकी same */
+
 select{
     width: 95%;
     padding: 8px;
@@ -48,7 +48,7 @@ input[type="checkbox"]{
     width:auto;
     margin-right:5px;
 }
-/* 🔥 button center करने के लिए */
+
 .btn-box{
     width: 700px;
     margin: auto;
@@ -59,7 +59,6 @@ input[type="checkbox"]{
     border-bottom-right-radius: 10px;
 }
 
-/* 🔥 button styling */
 button{
     background-color: #0d1b2a;
     color: white;
@@ -71,7 +70,63 @@ button{
     transition: 0.3s;
 }
 
-/* hover effect */
 button:hover{
     background-color: #1b263b;
+}
+/* 🔥 1024px (Laptop / Tablet) */
+@media screen and (max-width: 1024px) {
+
+  h1, p, table, .btn-box{
+    width: 90%;
+  }
+
+  td{
+    width: 50%;
+  }
+}
+
+/* 🔥 760px (Tablet / Mobile) */
+@media screen and (max-width: 760px) {
+
+  h1, p, table, .btn-box{
+    width: 95%;
+  }
+
+  table{
+    display: block;
+  }
+
+  tr{
+    display: block;
+  }
+
+  td{
+    display: block;
+    width: 100%;
+  }
+
+  input, select{
+    width: 100%;
+  }
+}
+
+/* 🔥 420px (Small Mobile) */
+@media screen and (max-width: 420px) {
+
+  h1{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 13px;
+  }
+
+  table{
+    padding: 10px;
+  }
+
+  button{
+    width: 100%;
+    padding: 12px;
+  }
 }
