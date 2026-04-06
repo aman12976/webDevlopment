@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+   
+}
 
 body{
     background-color: #aed0ef;
@@ -10,7 +14,7 @@ h1{
     width: 700px;
     margin: auto;
     margin-top: 30px;
-    padding: 15px 0 5px 0;
+    padding: 15px 15px 5px 15px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -231,7 +235,4 @@ nav ul li a:hover {
     }
 }
 
-
- .main{
-    background-color: #595cba;
- }
+ 
