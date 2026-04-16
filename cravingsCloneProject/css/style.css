@@ -11,7 +11,8 @@
   --color-error:            #ef4444;  /* Red for error states */
   --color-success:          #22c55e;  /* Green for success states */
 }
-nav-links{
-    color: var(--color-primary);
+.main{
+  color: var(--color-primary);
+  
     
 }
