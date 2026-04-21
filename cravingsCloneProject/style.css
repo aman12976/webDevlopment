@@ -136,34 +136,37 @@ ul{
     width: 900px;
     margin-right: 1000px; 
 }
+
+
+
 #footer{
     background-color: #3f4048;
     color: white;
     padding: 30px 80px;
 }
 
-.tagline{
+.line{
     text-align: center;
     margin-bottom: 40px;
     font-size: 18px;
 }
 
-.footer-container{
+/* .footer-box{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 40px;
-}
+} */
 
 .footer-logo img{
     width: 140px;
     border-radius: 50%;
 }
 
-.footer-links{
+ /* .footer-links{
     display: flex;
     flex-direction: column;
-}
+} */
 
 .footer-links h3{
     margin-bottom: 15px;
@@ -185,12 +188,12 @@ hr{
     margin: 40px 0 20px;
 }
 
-.footer-bottom{
+/* .footer-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
+} */
 
 .bottom-links a{
     color: white;
@@ -331,11 +334,7 @@ button{
     text-decoration: none;
     font-weight: bold;
 }
-/* .login-bg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 
 .partner{
     background-color: #c23a00;
@@ -343,17 +342,14 @@ button{
     text-align: center;
     padding: 80px 20px;
 }
-
 .partner h1{
     font-size: 40px;
     font-weight: bold;
 }
-
 .partner p{
     margin-top: 15px;
     font-size: 18px;
 }
-
 .btn-partner{
     display: inline-block;
     margin-top: 25px;
@@ -364,22 +360,12 @@ button{
     border-radius: 10px;
     font-weight: 600;
 }
-
 .btn-partner:hover{
     background: #ddd;
 }
 
 /* resister form */
 
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: Arial, sans-serif;
-} */
 
 
 .register-bg{
@@ -553,7 +539,7 @@ body{
 
 
 
-.review-section{
+.reviews{
     background: #f5f5f5;
     text-align: center;
     padding: 60px 20px;
@@ -564,7 +550,7 @@ body{
     font-weight: 900;
 }
 
-.review-subtitle{
+.info{
     margin: 10px 0 40px;
     color: #555;
 }
@@ -607,7 +593,6 @@ body{
     align-items: center;
     margin-top: 15px;
 }
-
 .user-icon{
     width: 45px;
     height: 45px;

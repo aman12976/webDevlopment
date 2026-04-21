@@ -85,3 +85,118 @@ input:focus {
   border: 2px solid royalblue;
   background-color: #fff;
 }
+
+
+body{
+  font-family: Arial;
+  padding-top: 70px;
+}
+
+/* HERO */
+.hero{
+  height: 100vh;
+  background: url('../img/a1.jpg') center/cover no-repeat;
+  position: relative;
+  align-items: center;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.content{
+  position: relative;
+  color: white;
+}
+
+/* CARD HOVER */
+.card:hover{
+  transform: translateY(-8px);
+  transition: 0.3s;
+}
+
+/* REVIEW */
+.review-card{
+  background: #f2eae3;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+/* FEATURED BG */
+.featured{
+  background: linear-gradient(to bottom, #c23a00, #e6cfc2);
+}
+
+/* CARD */
+.custom-card{
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.custom-card img{
+  height: 150px;
+  object-fit: cover;
+}
+
+.custom-card:hover{
+  transform: translateY(-8px);
+}
+
+/* STATS */
+.stats{
+  background: #eee7e1;
+}
+
+.box{
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* REVIEW */
+.review{
+  background: #f2ebe5;
+}
+
+.review-box{
+  background: #f3e5dc;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* COLORS */
+.text-pink{
+  color: #d84a8a;
+}
+
+
+
+.hero{
+    height: 100vh;
+    background: url('./img/a1.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.content{
+    position: relative;
+    z-index: 2;
+}
+
+/* बस search input थोड़ा customize */
+.search-input{
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+}

@@ -27,11 +27,11 @@
         </nav>
       </header>
 
-      <section class="hero ">
+      <div class="hero position-relative h-100vh d-flex align-items-center justify-content-center">
         <div class="overlay"></div>
 
         <div class="content text-center">
-          <h1>Your Favorite Food,<br />Delivered Fast</h1>
+          <h1 class="edit fs-1">Your Favorite Food,<br />Delivered Fast</h1>
           <p>
             Order from thousands of restaurants and get it delivered to your
             doorstep
@@ -44,13 +44,14 @@
             <a href="#" class="btn btn-light">Order Now</a>
           </div>
 
-          <div class="search-box">
+          <div class="search-box ">
+            <span><i class="bi bi-search"></i></span>
             <input type="text" placeholder="🔍︎  Search for restaurants or dishes" />
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="featured">
+      <div class="featured">
   <div class="container">
 
     <h2>Featured Restaurants</h2>
@@ -58,7 +59,7 @@
 
     <div class="cards">
 
-      <!-- Card 1 -->
+     
       <div class="card">
         <div class="img-box">
           <img src="../img/a7.avif" alt="">
@@ -81,7 +82,7 @@
         </div>
       </div>
 
-      <!-- Card 2 -->
+     
       <div class="card">
         <div class="img-box">
           <img src="../img/a8.avif" alt="">
@@ -104,7 +105,7 @@
         </div>
       </div>
 
-      <!-- Card 3 -->
+     
       <div class="card">
         <div class="img-box">
           <img src="../img/a9.webp" alt="">
@@ -128,10 +129,10 @@
 
     </div>
   </div>
-</section>
+</div>
 
-      <section class="stats">
-        <h1><b>Cravings by the Numbers</b></h1>
+      <div class="stats">
+        <h1 class="size fs-1 fw-semibold">Cravings by the Numbers</h1>
         <p class="subtitle">
           See why millions trust us for their daily food delivery needs
         </p>
@@ -161,23 +162,25 @@
             <p>Riders ensuring quick and safe delivery</p>
           </div>
         </div>
-      </section>
+      </div>
+      
 
-      <section class="review-section">
-        <h1>What Our Customers Say</h1>
-        <p class="review-subtitle">Real feedback from real food lovers</p>
+      <!-- costumber ka review -->
+      <div class="reviews text-center">
+        <h1 class="ak fs-1 fw-bold">What Our Customers Say</h1>
+        <p class="info">Real feedback from real food lovers</p>
 
-        <div class="review-container">
-          <!-- Card 1 -->
-          <div class="review-card">
-            <div class="review-stars">★★★★★</div>
-            <h3>Amazing Service!</h3>
-            <p>
+        <div class="review-box d-flex justify-content-center flex-wrap gap-4">
+          <!-- bo 1 -->
+          <div class="card ">
+            <div class="review-stars" align="left">★ ★ ★ ★ ★</div>
+            <h3 align="left">Amazing Service!</h3>
+            <p align="left">
               "The food arrived hot and fresh. The delivery was incredibly
               fast."
             </p>
 
-            <div class="review-user">
+            <div class="review-person d-flex align-items-center">
               <div class="user-icon orange-bg">AJ</div>
               <div>
                 <h4>Arun J.</h4>
@@ -186,15 +189,15 @@
             </div>
           </div>
 
-          <!-- Card 2 -->
-          <div class="review-card">
-            <div class="review-stars">★★★★★</div>
-            <h3>Best App Ever!</h3>
-            <p>
+          <!-- box 2 -->
+          <div class="card">
+            <div class="review-stars" align="left">★ ★ ★ ★ ★</div>
+            <h3 align="left">Best App Ever!</h3>
+            <p align="left">
               "Easy to use interface and quick delivery. I order every week!"
             </p>
 
-            <div class="review-user">
+            <div class="review-person d-flex align-items-center">
               <div class="user-icon pink-bg">SP</div>
               <div>
                 <h4>Sneha P.</h4>
@@ -203,15 +206,15 @@
             </div>
           </div>
 
-          <!-- Card 3 -->
-          <div class="review-card">
-            <div class="review-stars">★★★★★</div>
-            <h3>Excellent Choices</h3>
-            <p>
+          <!-- box 3 -->
+          <div class="card">
+            <div class="review-stars" align="left">★ ★ ★ ★ ★</div>
+            <h3 align="left">Excellent Choices</h3>
+            <p align="left">
               "Love the variety of restaurants available. Definitely worth it!"
             </p>
 
-            <div class="review-user">
+            <div class="review-person d-flex align-items-center" >
               <div class="user-icon orange-bg">RK</div>
               <div>
                 <h4>Raj Kumar</h4>
@@ -220,9 +223,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <!-- <section class="partner">
+    <!-- secons last work -->
+      <div class="partner d-flex flex-column align-items-center text-center">
         <h1>Become a Restaurant Partner</h1>
         <p>
           Grow your business with Cravings. Join thousands of restaurants
@@ -230,38 +234,40 @@
         </p>
 
         <a href="#" class="btn-partner">Partner With Us</a>
-      </section> -->
+      </div>
+
+<!-- foter work -->
       <footer id="footer">
-        <p class="tagline">
+        <p class="line">
           --- Your favorite food delivery platform connecting customers with
           restaurants and riders. ---
         </p>
 
-        <div class="footer-container">
+        <div class="footer-box d-flex justify-content-between flex-wrap gap-4">
           <div class="footer-logo">
             <img src="../img/a2.png" alt="Craving Logo" />
           </div>
 
-          <div class="footer-links">
+          <div class="footer-links d-flex flex-column">
             <h3>Quick Links</h3>
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="../cravings/oderNow.html">Order Now</a>
           </div>
 
-          <div class="footer-links">
+          <div class="footer-links d-flex flex-column">
             <h3>For Restaurants</h3>
             <a href="../cravings/Register.html">Partner With Us</a>
             <a href="../cravings/Login.html">Restaurant Dashboard</a>
           </div>
 
-          <div class="footer-links">
+          <div class="footer-links d-flex flex-column">
             <h3>For Riders</h3>
             <a href="#">Become a Rider</a>
             <a href="#">Rider Dashboard</a>
           </div>
 
-          <div class="footer-links">
+          <div class="footer-links d-flex flex-column">
             <h3>Feedback & Support</h3>
             <a href="#">Submit Feedback</a>
             <a href="#">Help Center</a>
@@ -271,10 +277,10 @@
 
         <hr />
 
-        <div class="footer-bottom">
+        <div class="footer-bottom d-flex justify-content-between flex-wrap gap-4">
           <p>© 2026 Cravings. All rights reserved.</p>
 
-          <div class="bottom-links">
+          <div class="bottom-links text-decoration-none m-lg-2">
             <a href="../cravings/privacyPolicy.html">Privacy Policy</a>
             <a href="../cravings/termsOfService.html">Terms of Service</a>
             <a href="../cravings/siteMap.html">Site Map</a>
