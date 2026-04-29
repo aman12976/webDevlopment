@@ -50,7 +50,8 @@ ul{
          text-decoration: none;
          border: 1px solid #ffffff;
          background:#f4f4f5;
-         padding: 10px 25px;
+         padding: 10px 20px;
+         margin-right: 20px;
     background: white;      
     color: #c23a00;
     border: none;
@@ -370,14 +371,15 @@ button{
 
 
 .register-bg{
-    height: 100vh;
+    height: 115vh;
     background: url('../cravingsCloneProject/img/foodTable.webp') no-repeat center/cover;
     display: flex;
     justify-content: flex-end;   /* 👈 right side */
       align-items: flex-end; 
     padding-right: 80px;
-       padding-top: 40px;         
-    padding-bottom: 20px;  
+    padding-top: 50px;       
+   
+    
     
 }
 
@@ -388,6 +390,7 @@ button{
     border-radius: 15px;
     width: 420px;
     margin-right: 50px;
+    ;
 }
 
 /* Heading */
@@ -711,6 +714,11 @@ form button:hover{
     align-items: center;
 }
 
+.hero-content{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
 /* overlay dark */
 .overlay{
     position: absolute;
@@ -727,7 +735,7 @@ form button:hover{
 }
 
 .hero-content h1{
-    font-size: 42px;
+    font-size: 45px;
     font-weight: 900;
 }
 
@@ -792,8 +800,9 @@ form button:hover{
     background: #c23a00;
     color: white;
     text-align: center;
-    padding: 15px;
-    font-size: 14px;
+    padding: 50px;
+    font-size: 25px;
+
 }
 
 .sitemap-footer b{
@@ -803,6 +812,7 @@ form button:hover{
 .login-box, .register-box, .contact-box{
     padding: 20px;
 }
+
 
 
 
@@ -928,7 +938,7 @@ body{
 /* SECTION */
 .feedback-section{
     min-height: 100vh;
-    background: url('../img/bg.jpg') no-repeat center/cover;
+    background: url('../cravingsCloneProject/img/FeedbackPage.jpeg') no-repeat center/cover;
 
     display: flex;
     justify-content: flex-end;   /* RIGHT SIDE */
@@ -1009,7 +1019,7 @@ button:hover{
 
 /* term of  service */
 
-
+/* 
 *{
     margin: 0;
     padding: 0;
@@ -1018,7 +1028,7 @@ button:hover{
 
 body{
     font-family: Arial, sans-serif;
-}
+} */
 
 /* ===== HERO ===== */
 .terms-hero{
@@ -1035,18 +1045,27 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.35);
+    
 }
 
 .hero-text{
+    z-index: 2;
+    position: relative;
+}
+.hero-text{
     position: relative;
     text-align: center;
+  
     color: white;
 }
 
 .hero-text h1{
+        color: #fff;
     font-size: 40px;
     font-weight: 900;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+       text-shadow: 0px 0px 12px rgba(0,0,0,0.9);
 }
 
 .hero-text span{
@@ -1461,3 +1480,35 @@ oder now search box */
     margin-left: 10px;
 }
 
+
+.hero {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* carousel background */
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+}
+
+/* overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+/* content ऊपर रहे */
+.content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
