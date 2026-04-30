@@ -33,3 +33,8 @@ let Deta ;
 let name= "Aman Waghade";
 data = name ||"N/A";
 console.log(data);
+
+
+
+let x = 20;
+console.log(x>10 && y<5); // true
