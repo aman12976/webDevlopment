@@ -62,8 +62,25 @@ for(var i=1; i<=10; i++)
 
 
 // while loop
+var i=1;
+while(i<=5)
+{
+    console.log(i);
+    i++;
+}
 
-let i =1;
+
+// q2
+
+var i=5;
+while(i>=1)
+{
+    console.log(i);
+    i--;
+}
+
+
+var i=2;
 while(i<=5)
 {
     console.log(i);
