@@ -25,8 +25,17 @@ console.log(add(4, 6));
 
 // arrow function
 
-const addArrow = (a, b) => {
-  return a + b;
-};
+const addArrow = (a, b) => a + b;
 
-console.log(addArrow(9, 8));
+
+// console.log(addArrow(9, 8));
+
+console.log(addArrow(7,9));
+
+
+
+const arrowfun = () =>{
+    console.log("I am Arrow Function");
+    
+}
+arrowfun();
