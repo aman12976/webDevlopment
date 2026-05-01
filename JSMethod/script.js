@@ -5,3 +5,13 @@ function sum (x,y){
     console.log(z);
 }
 sum(a,b)
+
+
+
+
+let abc = function(){
+    console.log("hello world ");
+    
+}
+
+console.log(abc);
