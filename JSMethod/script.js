@@ -15,12 +15,18 @@ console.log(abc);
 
 abc();
 
-
-
-let add = function(a, b) {
-    return a + b;
+let add = function (a, b) {
+  return a + b;
 };
 
 console.log(add);
 
 console.log(add(4, 6));
+
+// arrow function
+
+const addArrow = (a, b) => {
+  return a + b;
+};
+
+console.log(addArrow(9, 8));
