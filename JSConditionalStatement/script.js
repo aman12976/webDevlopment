@@ -37,4 +37,4 @@ console.log(data);
 
 
 let x = 20;
-console.log(x>10 && y<5); // true
+console.log(x>10 && y<5); 
