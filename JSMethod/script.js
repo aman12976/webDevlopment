@@ -1,41 +1,59 @@
-let a = 20;
-b = 30;
+// let a = 20;
+// b = 30;
 
-function sum(x, y) {
-  let z = b + a;
-  console.log(z);
-}
-sum(a, b);
+// function sum(x, y) {
+//   let z = b + a;
+//   console.log(z);
+// }
+// sum(a, b);
 
-let abc = function () {
-  console.log("hello world ");
-};
+// let abc = function () {
+//   console.log("hello world ");
+// };
 
-console.log(abc);
+// console.log(abc);
 
-abc();
+// abc();
 
-let add = function (a, b) {
-  return a + b;
-};
+// let add = function (a, b) {
+//   return a + b;
+// };
 
-console.log(add);
+// console.log(add);
 
-console.log(add(4, 6));
+// console.log(add(4, 6));
 
-// arrow function
+// // arrow function
 
-const addArrow = (a, b) => a + b;
-
-
-// console.log(addArrow(9, 8));
-
-console.log(addArrow(7,9));
+// const addArrow = (a, b) => a + b;
 
 
+// // console.log(addArrow(9, 8));
 
-const arrowfun = () =>{
-    console.log("I am Arrow Function");
+// console.log(addArrow(7,9));
+
+
+
+// const arrowfun = () =>{
+//     console.log("I am Arrow Function");
     
-}
-arrowfun();
+// }
+// arrowfun();
+
+
+
+
+
+
+var c = 10;
+console.log(c);
+console.log(d);
+var d = 5;
+console.log(c);
+console.log(d);
+
+
+
+let x;
+let y;
+let z;
