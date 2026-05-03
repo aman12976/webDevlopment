@@ -57,3 +57,11 @@ console.log(d);
 let x;
 let y;
 let z;
+
+
+var schoolName = "ABC School";
+function classRoom() {
+  console.log(schoolName); // Accessible here
+}
+console.log(schoolName); // Accessible globally
+classRoom();
