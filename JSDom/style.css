@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f4e6e6;
+}
+
+
 .divHide{
     display: none;
 }
@@ -9,10 +16,26 @@
     height: 60vh;
     width: 50vh;
     /* box-shadow: 1px 1px 1px black; */
+   
   
 
 }
-.btn{
-    padding-top: 10px;
+.ak{
+    height: 100%;
+    width: 100%;
+   margin: 1px;
+
+    
 }
 
+/* /#dataCard{
+    width: 100vh;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+} */
+
+h1{
+    text-align: center;
+}
