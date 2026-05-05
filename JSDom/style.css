@@ -1,0 +1,18 @@
+.divHide{
+    display: none;
+}
+.divShow{
+    display:block ;
+}
+
+.container{
+    height: 60vh;
+    width: 50vh;
+    /* box-shadow: 1px 1px 1px black; */
+  
+
+}
+.btn{
+    padding-top: 10px;
+}
+
