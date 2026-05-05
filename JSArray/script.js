@@ -29,6 +29,21 @@ console.log(arr.at(6));
 
 
 
+let ar = [10,26,45,68,12,31,2,24]
+
+for(var i=0; i<8; i++)
+{     console.log(ar[i]);
+
+
+}
+console.log("for each loop");
+
+ar.forEach((Element)=>{console.log(Element);
+});
+
+
+
+
 
 
 
