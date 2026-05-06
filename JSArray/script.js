@@ -45,6 +45,17 @@ ar.forEach((Element)=>{console.log(Element);
 
 
 
+let arr1 = {};
+for(var i = 1; i<2;i++)
+{
+    console.log(arr1);
+}
+
+arr1.push(15);
+console.log(arr1);
+ 
+
+
 
 
 
