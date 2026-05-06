@@ -117,3 +117,16 @@ let aman ={
 
 console.log(Object.keys(aman));
 console.log(Object.values(aman));
+console.log(Object.entries(aman));
+
+
+let arr1 = [2,3,85,9,65,6,91,4,78,85,55,8,6,45,12]
+console.log(arr1);
+
+ arr1.sort((a,b)=>a-b);  //sorting ke liye hai ye
+console.log(arr1);
+
+
+console.log(arr1.find((val) => val===12));
+console.log(arr1.findIndex((val) => val===65));
+console.log(arr1.findLastIndex((val) => val===3));
