@@ -1,4 +1,4 @@
-let arr = [10,26,45,68,12,31,2,24]
+// let arr = [10,26,45,68,12,31,2,24]
 
 // for(var i=0; i<8; i++)
 // {
@@ -108,7 +108,7 @@ let arr = [10,26,45,68,12,31,2,24]
 
 
 let aman ={
-    "name": "Aman Verma",
+    "name": "Aman Waghade",
     "dob": "2002-05-14",
     "mobile": "9876543210",
     "city": "Bhopal",
@@ -117,8 +117,3 @@ let aman ={
 
 console.log(Object.keys(aman));
 console.log(Object.values(aman));
-
-
-
-
-
