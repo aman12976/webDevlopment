@@ -136,3 +136,7 @@ let arr2 = [2,3,85,9,65,6,91,4, 100,78,85,55,8,6,45,12]
 
 console.log(arr2.filter((val) => val > 20));
 console.log(arr2.find((val) => val > 20));
+
+
+
+console.log(arr2.slice(0,3));
