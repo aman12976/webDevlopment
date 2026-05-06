@@ -130,3 +130,9 @@ console.log(arr1);
 console.log(arr1.find((val) => val===12));
 console.log(arr1.findIndex((val) => val===65));
 console.log(arr1.findLastIndex((val) => val===3));
+
+
+let arr2 = [2,3,85,9,65,6,91,4, 100,78,85,55,8,6,45,12]
+
+console.log(arr2.filter((val) => val > 20));
+console.log(arr2.find((val) => val > 20));
