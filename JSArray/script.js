@@ -45,7 +45,7 @@ ar.forEach((Element)=>{console.log(Element);
 
 
 
-let arr1 = {};
+let arr1 = [];
 for(var i = 1; i<2;i++)
 {
     console.log(arr1);
@@ -53,7 +53,57 @@ for(var i = 1; i<2;i++)
 
 arr1.push(15);
 console.log(arr1);
+
+
+
+let fn =[
+  {
+    "name": "Aman Verma",
+    "dob": "2002-05-14",
+    "mobile": "9876543210",
+    "city": "Bhopal",
+    "job": "Software Developer"
+  },
+  {
+    "name": "Rahul Sharma",
+    "dob": "2001-11-22",
+    "mobile": "9123456780",
+    "city": "Indore",
+    "job": "Data Analyst"
+  },
+  {
+    "name": "Neha Singh",
+    "dob": "2003-07-09",
+    "mobile": "9988776655",
+    "city": "Delhi",
+    "job": "UI/UX Designer"
+  },
+  {
+    "name": "Priya Patel",
+    "dob": "2000-03-18",
+    "mobile": "9090909090",
+    "city": "Ahmedabad",
+    "job": "Digital Marketer"
+  },
+  {
+    "name": "Rohit Gupta",
+    "dob": "2002-12-30",
+    "mobile": "9012345678",
+    "city": "Jaipur",
+    "job": "Mechanical Engineer"
+  }
+]
+
+fn.forEach(item => {
+    console.log(item["job"]);
+    
+});
  
+
+console.log(fn);
+console.log(fn[1]["name"]);
+console.log(fn[2][""]);
+
 
 
 
