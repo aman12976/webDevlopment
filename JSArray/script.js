@@ -147,3 +147,24 @@ console.log(ab);
 console.log(ab.split(" "));
 console.log(ab.split("-"));
 
+
+
+let str = "this is String"
+
+console.log(str.charAt(5));
+
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+let a=3.14;
+console.log(a);
+
+let c= 3.14465465653459725556552458434;
+console.log(c);
+
+console.log(c.toFixed(5));
+
+
+
+
+
