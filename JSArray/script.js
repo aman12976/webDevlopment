@@ -140,3 +140,10 @@ console.log(arr2.find((val) => val > 20));
 
 
 console.log(arr2.slice(0,3));
+
+let ab = "aman wahhade ko kal gahr jana hai"
+console.log(ab);
+
+console.log(ab.split(" "));
+console.log(ab.split("-"));
+
