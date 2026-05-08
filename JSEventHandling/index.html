@@ -3,27 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Color Controller</title>
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="bulb1">bulb</div>
-<div class="Aman">
-    <button id="bulbOn" onclick="BulbON()">ON</button>
-    <br>
-    <button id="bulbOff" onclick="BulbOFF()">OFF</button>
-<br>
-     <button id="bulbOn" onclick="Bulb()">RED</button>
-     <br>
-    <button id="bulbOff" onclick="BulbAk()">GREEN</button>
-    
-</div>
-<button id="bulbred"></button>
-<button id="bulbgreen"></button>
-<button id="bulbpink"></button>
-<button id="bulbwhite"></button>
+    <div class="main-box">
+      <div class="content-area" id="contentArea">
+        <h1 id="mainHeading">This is a Heading</h1>
 
+        <p id="mainPara">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+          pariatur veniam molestiae harum adipisci. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit.
+        </p>
+      </div>
 
+      <div class="control-area">
+        <div class="color-box">
+          <span>Background Color</span>
+          <input type="color" id="bgPicker" />
+        </div>
+
+        <div class="color-box">
+          <span>Heading Color</span>
+          <input type="color" id="headingPicker" />
+        </div>
+
+        <div class="color-box">
+          <span>Paragraph Color</span>
+          <input type="color" id="paraPicker" />
+        </div>
+
+        <button id="resetBtn">Reset All</button>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
