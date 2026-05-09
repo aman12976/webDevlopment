@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="w-25 bg-light rounded shadow border mx-auto mt-5">
+      <h1 class="text-center mb-3">Age Calculator</h1>
+
+      <form class="d-flex flex-column gap-3 align-items-center w-100 p-3">
+        <label for="dob">Enter your Date of birth</label>
+        <input type="date" name="bob" id="dob" class="form-control">
+
+         <label for="dob">Choose Current Date</label>
+        <input type="date" name="bob" id="dob">
+
+        <button type="submit" class="btn btn-primary">Calculate age</button>
+      </form>
+      <div class="fw-bold text-center">
+        your age is :-<span id="MYage">xx</span>Year
+      </div>
+    </div>
+    
+<!-- 
+    script -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
