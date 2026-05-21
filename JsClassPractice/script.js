@@ -32,7 +32,7 @@ buttons.forEach((button) => {
 
     // Normal button press
     else {
-      input = value;
+      input += value;
       display.innerText = input;
     }
   });
