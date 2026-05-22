@@ -7,7 +7,7 @@ buttons.forEach((button) => {
   button.addEventListener("click", () => {
     const value = button.innerText;
 
-    // AC: Clear all
+
     if (value === "AC") {
       input = "";
       display.innerText = "0";
@@ -19,7 +19,7 @@ buttons.forEach((button) => {
       display.innerText = input || "0";
     }
 
-    // =: Calculate result
+   
     else if (value === "=") {
       try {
         input = eval(input).toString();
