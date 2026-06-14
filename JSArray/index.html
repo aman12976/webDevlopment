@@ -101,6 +101,11 @@ for (const color of colors) {
         arr.flat();
         console.log(arr);
 
+        arr.flatMap((item) => {
+            return [item, item * 2];
+        });
+        console.log(arr);
+
 
 
 
