@@ -1,170 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document of 8th jun</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1>Array Methods</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur
+      adipisci error quas blanditiis beatae, laudantium sit quasi vitae ab,
+      iusto similique temporibus aliquam id eum est labore eligendi et expedita?
+    </p>
+
     <script>
-        const arr = [1, 2, 3, 4, 5];
-        console.log(arr);
-        arr.push(6);
-        console.log(arr);
-        arr.pop();
-        console.log(arr);
-        arr.unshift(0);
-        console.log(arr);
-        arr.shift();
-        console.log(arr);
-        arr.splice(2, 0, 'a', 'b');
-        console.log(arr);
-        arr.splice(2, 2);
-        console.log(arr);
-        arr.reverse();
-        console.log(arr);
-        arr.sort();
-        console.log(arr);
-        arr.forEach((item) => {
-            console.log(item);
-        });
-        arr.map((item) => {
-            return item * 2;
-        });
-        console.log(arr);
-        arr.filter((item) => {
-            return item > 2;
-        });
-        console.log(arr);
-        arr.reduce((acc, item) => {
-            return acc + item;
-        }, 0);
-        console.log(arr);
-        arr.slice(1, 4);
-        console.log(arr);
-        arr.join('-');
-        console.log(arr);
-        arr.concat([6, 7, 81]);
-        console.log(arr);
-        arr.includes(3);
-        console.log(arr);
-        arr.indexOf(3);
-        console.log(arr);
-        arr.lastIndexOf(3);
-        console.log(arr);
-        console.log(Array.isArray(arr));
-        arr.length = 3;
-        console.log(arr);
-        arr.length = 5;
-        console.log(arr);
-        arr.fill(0, 1, 4);
-        console.log(arr);
-        arr.copyWithin(0, 2, 4);
-        console.log(arr);
-        arr.entries();
-        console.log(arr);
-        arr.keys();
-        console.log(arr);
-        arr.values();
-        console.log(arr);
-        arr.find((item) => {
-            return item > 2;
-        });
-        console.log(arr);
-    
-       const colors = ['red', 'green', 'blue'];
+      const arr = [1, 2, 3, 4, 5];
+      console.log(arr);
+      arr.push(6);
+      console.log(arr);
+      arr.pop();
+      console.log(arr);
+      arr.unshift(0);
+      console.log(arr);
+      arr.shift();
+      console.log(arr);
+      arr.splice(2, 0, "a", "b");
+      console.log(arr);
+      arr.splice(2, 2);
+      console.log(arr);
+      arr.reverse();
+      console.log(arr);
+      arr.sort();
+      console.log(arr);
+      arr.forEach((item) => {
+        console.log(item);
+      });
+      arr.map((item) => {
+        return item * 2;
+      });
+      console.log(arr);
+      arr.filter((item) => {
+        return item > 2;
+      });
+      console.log(arr);
+      arr.reduce((acc, item) => {
+        return acc + item;
+      }, 0);
+      console.log(arr);
+      arr.slice(1, 4);
+      console.log(arr);
+      arr.join("-");
+      console.log(arr);
+      arr.concat([6, 7, 81]);
+      console.log(arr);
+      arr.includes(3);
+      console.log(arr);
+      arr.indexOf(3);
+      console.log(arr);
+      arr.lastIndexOf(3);
+      console.log(arr);
+      console.log(Array.isArray(arr));
+      arr.length = 3;
+      console.log(arr);
+      arr.length = 5;
+      console.log(arr);
+      arr.fill(0, 1, 4);
+      console.log(arr);
+      arr.copyWithin(0, 2, 4);
+      console.log(arr);
+      arr.entries();
+      console.log(arr);
+      arr.keys();
+      console.log(arr);
+      arr.values();
+      console.log(arr);
+      arr.find((item) => {
+        return item > 2;
+      });
+      console.log(arr);
 
-// Using forEach
-colors.forEach(color => console.log(color));
+      const colors = ["red", "green", "blue"];
 
-// Using for...of loop
-for (const color of colors) {
-  console.log(color);
-}
-  arr.every((item) => {
-            return item > 0;
-        });
-        console.log(arr);
+      // Using forEach
+      colors.forEach((color) => console.log(color));
 
-        arr.some((item) => {
-            return item > 4;
-        });
+      // Using for...of loop
+      for (const color of colors) {
+        console.log(color);
+      }
+      arr.every((item) => {
+        return item > 0;
+      });
+      console.log(arr);
 
-        console.log(arr);
+      arr.some((item) => {
+        return item > 4;
+      });
 
-        arr.sort((a, b) => a - b);
-        console.log(arr);
+      console.log(arr);
 
-        arr.sort((a, b) => b - a);
-        console.log(arr);
+      arr.sort((a, b) => a - b);
+      console.log(arr);
 
-        arr.flat();
-        console.log(arr);
+      arr.sort((a, b) => b - a);
+      console.log(arr);
 
-        arr.flatMap((item) => {
-            return [item, item * 2];
-        });
-        console.log(arr);
+      arr.flat();
+      console.log(arr);
 
-        arr.toString();
-        console.log(arr);
+      arr.flatMap((item) => {
+        return [item, item * 2];
+      });
+      console.log(arr);
 
-        arr.toLocaleString();
-        console.log(arr);
+      arr.toString();
+      console.log(arr);
 
-        arr.valueOf();
-        console.log(arr);
+      arr.toLocaleString();
+      console.log(arr);
 
-        arr.copyWithin(0, 2, 4);
-        console.log(arr);
+      arr.valueOf();
+      console.log(arr);
 
-        arr.fill(0, 1, 4);
-        console.log(arr);
+      arr.copyWithin(0, 2, 4);
+      console.log(arr);
 
-        arr.reverse();
-        console.log(arr);
+      arr.fill(0, 1, 4);
+      console.log(arr);
 
-        arr.sort();
-        console.log(arr);
+      arr.reverse();
+      console.log(arr);
 
-        arr.splice(2, 0, 'a', 'b');
-        console.log(arr);
+      arr.sort();
+      console.log(arr);
 
-        arr.splice(2, 2);
-        console.log(arr);
+      arr.splice(2, 0, "a", "b");
+      console.log(arr);
 
-        arr.unshift(0);
-        console.log(arr);
+      arr.splice(2, 2);
+      console.log(arr);
 
-        arr.shift();
-        console.log(arr);
+      arr.unshift(0);
+      console.log(arr);
 
+      arr.shift();
+      console.log(arr);
 
+      arr.push(6);
+      console.log(arr);
 
-        arr.push(6);
-        console.log(arr);
+      arr.pop();
+      console.log(arr);
 
-        arr.pop();
-        console.log(arr);
+      arr.concat([6, 7, 8]);
+      console.log(arr);
 
-        arr.concat([6, 7, 8]);
-        console.log(arr);
+      arr.includes(3);
+      console.log(arr);
 
-        arr.includes(3);
-        console.log(arr);
+      arr.indexOf(3);
+      console.log(arr);
 
-        arr.indexOf(3);
-        console.log(arr);
-
-        arr.lastIndexOf(3);
-        console.log(arr);
-        
-
-
-
-
-
+      arr.lastIndexOf(3);
+      console.log(arr);
     </script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
